@@ -8,7 +8,9 @@ import os
 import uuid
 
 if "MONGODB_PASS" in os.environ:
-    uri = "mongodb+srv://{}:{}@cluster0.cmoki.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0".format(os.environ["MONGODB_USER"], os.environ["MONGODB_PASS"])
+    uri = "mongodb+srv://{}:{}@cluster0.{}.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0".format(
+        os.environ["MONGODB_USER"], os.environ["MONGODB_PASS"], os.environ["MONGODB_SUBDOMAIN"]
+    )
 else:
     raise Exception("MONGODB_PASS not in environment")
 

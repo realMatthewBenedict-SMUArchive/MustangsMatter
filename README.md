@@ -2,7 +2,7 @@
 
 This is a corrected submission for the HackSMU VI hackathon, which aimed to build a health and wellness platform for SMU students.
 
-The original erroneous submission may be viewed live [here](https://wellness-web-app.onrender.com/).
+This submission may be viewed live [here](https://wellness-web-app.onrender.com/).
 
 ## Deploying
 

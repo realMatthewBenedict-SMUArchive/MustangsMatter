@@ -4,6 +4,7 @@ pymongo
 apscheduler
 datetime
 langchain
+langchain-classic
 langchain_community
 langchain_huggingface
 propelauth_py
